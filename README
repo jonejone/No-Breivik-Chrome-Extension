@@ -1,0 +1,16 @@
+
+No Breivik Chrome Extension
+---------------------------
+
+In Norway, the trial against the person behind the terrorist attacks in Oslo 22/07/2011 begins shortly. A lot of norwegians are tired of constantly reading about the terrorist in the news, as well as seeing pictures of him. Therefore I have created a simple Chrome extension that just replaces articles containing the "Breivik" keyword with an empty placeholder, so users tired of reading about him can choose to not see them.
+
+
+Currently supported sites:
+- Dagbladet.no
+- VG.no
+- Aftenposten.no
+
+
+Created by: Jone Eide <jone@idev.no>
+Github: http://github.com/jonejone/No-Breivik-Chrome-Extension
+Homepage: http://jone-eide.com/no-breivik/
