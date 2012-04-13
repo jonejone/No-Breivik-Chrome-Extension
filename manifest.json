@@ -5,15 +5,15 @@
   "content_scripts": [
     {
       "matches": ["http://www.dagbladet.no/*"],
-      "js": ["jquery.js", "dagbladet.js"]
+      "js": ["js/jquery.js", "js/nobreivik.js", "js/dagbladet.js"]
     },
     {
       "matches": ["http://www.vg.no/*"],
-      "js": ["jquery.js", "vg.js"]
+      "js": ["js/jquery.js", "js/nobreivik.js", "js/vg.js"]
     },
     {
       "matches": ["http://www.aftenposten.no/*"],
-      "js": ["jquery.js", "aftenposten.js"]
+      "js": ["js/jquery.js", "js/nobreivik.js", "js/aftenposten.js"]
     }
   ]
 }
