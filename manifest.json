@@ -2,11 +2,18 @@
   "name": "No Breivik",
   "version": "0.1",
   "description": "Removes articles related to Anders Breving Brevik",
-  "default_icon": "icon.png",
   "content_scripts": [
     {
       "matches": ["http://www.dagbladet.no/*"],
       "js": ["jquery.js", "dagbladet.js"]
+    },
+    {
+      "matches": ["http://www.vg.no/*"],
+      "js": ["jquery.js", "vg.js"]
+    },
+    {
+      "matches": ["http://www.aftenposten.no/*"],
+      "js": ["jquery.js", "aftenposten.js"]
     }
   ]
 }

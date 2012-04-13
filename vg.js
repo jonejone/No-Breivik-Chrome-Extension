@@ -1,6 +1,6 @@
 /**
  * Part of the No-Breivik Chrome Extension
- * Will replace all articles on dagbladet.no containing
+ * Will replace all articles on vg.no containing
  * the text 'breivik' with empty placeholders.
  * 
  * Created by Jone Eide <jone@idev.no>
@@ -9,7 +9,7 @@
 
 
 // Search for divs starting with 'cell-'
-var article_divs = $('div[id^=cell-]');
+var article_divs = $('.article-extract');
 
 // Contains all elements that should be emptied
 var breivik_divs = [];
