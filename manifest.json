@@ -2,18 +2,25 @@
   "name": "No Breivik",
   "version": "0.1",
   "description": "Removes articles related to Anders Breving Brevik",
+  "homepage_url": "http://jone-eide.com/no-breivik/",
+  "permissions": [
+	"http://jone-eide.com/*"
+  ],
   "content_scripts": [
     {
       "matches": ["http://www.dagbladet.no/*"],
-      "js": ["js/jquery.js", "js/nobreivik.js", "js/dagbladet.js"]
+      "js": ["js/jquery.js", "js/nobreivik.js", "js/dagbladet.js"],
+      "css": ["css/nobreivik.css"]
     },
     {
       "matches": ["http://www.vg.no/*"],
-      "js": ["js/jquery.js", "js/nobreivik.js", "js/vg.js"]
+      "js": ["js/jquery.js", "js/nobreivik.js", "js/vg.js"],
+      "css": ["css/nobreivik.css"]
     },
     {
       "matches": ["http://www.aftenposten.no/*"],
-      "js": ["js/jquery.js", "js/nobreivik.js", "js/aftenposten.js"]
+      "js": ["js/jquery.js", "js/nobreivik.js", "js/aftenposten.js"],
+      "css": ["css/nobreivik.css"]
     }
   ]
 }

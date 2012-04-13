@@ -7,5 +7,5 @@ new NoBreivik({
 
 	remove_elements: [
 		'.inpage-widget-190 li', // "Siste nytt" right sidebar
-	]
+	],
 });
